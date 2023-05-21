@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    background-color: #3d9feb;
+    color: black;
+    text-align: center;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    padding: 50px;
+}
+
+.heading {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+    font-family: Roboto;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+}
+
+.timer,
+.errors,
+.accuracy,
+.cpm,
+.wpm {
+    background-color: #e4ebf0;
+    height: 60px;
+    width: 70px;
+    margin: 8px;
+    padding: 12px;
+    border-radius: 20%;
+    box-shadow: 5px 8px 5px;
+}
+
+.cpm,
+.wpm {
+    display: none;
+}
+
+.header_text {
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 600;
+}
+
+.curr_time,
+.curr_errors,
+.curr_accuracy,
+.curr_cpm,
+.curr_wpm {
+    font-size: 2.75rem;
+}
+
+.quote {
+    background-color: #e4ebf0;
+    font-size: 1.5rem;
+    margin: 10px;
+    padding: 25px;
+    box-shadow: black 5px 8px 5px;
+    border-radius: 20px;
+}
+
+.input_area {
+    background-color: #f5f5c6;
+    height: 80px;
+    width: 40%;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 15px;
+    padding: 20px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.restart_btn {
+    display: none;
+    background-color: #326765;
+    font-size: 1.5rem;
+    padding: 10px;
+    border: 0px;
+    box-shadow: black 5px 8px 5px;
+}
+
+.incorrect_char {
+    color: red;
+    text-decoration: underline;
+}
+
+.correct_char {
+    color: darkgreen;
+}
